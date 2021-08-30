@@ -324,6 +324,7 @@ class APIUserGrpsCtrl extends Controller
 		[ 'name' => 'MAVIS', 'value' => '11'],
 		[ 'name' => 'Add/Edit/Delete Tac ACL', 'value' => '12'],
 		[ 'name' => 'Add/Edit/Delete Tac Services', 'value' => '13'],
+		[ 'name' => 'Edit Tac Users', 'value' => '14'],
 	);
 	#########	POST User Group 	#########
 	public function postUserGroupRightsList($req,$res)
